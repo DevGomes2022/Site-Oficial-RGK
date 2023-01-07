@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/*--cores--*/
+:root {
+    --cor--principal--: #2BBEDE;
+}
+
+html {
+    scroll-behavior: smooth;
+}
