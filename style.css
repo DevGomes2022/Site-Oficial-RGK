@@ -289,7 +289,7 @@ header {
 }
 
 .frases-banner h1 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .frases-banner p {
@@ -417,9 +417,29 @@ header {
         width: 60px;
         height: 60px;
     }
-    
     .box-categorias p {
         font-size: 11px;
+    }
+    .box-categorias p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .box-categorias p {
+        display: none;
+    }
+    .box-categorias {
+        height: 60px;
+        width: 60px;
+        margin: 0px 5px;
+    }
+    .categorias {
+        height: 70px;
+    }
+    .box-categorias h1 {
+        width: 50px;
+        height: 50px;
     }
 }
 
